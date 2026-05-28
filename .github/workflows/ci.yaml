@@ -37,8 +37,8 @@ jobs:
       run: |
         echo "# First Line of our report">> report.md
         echo "##  Bar plots">> report.md
-        echo '![](./bar_plot.png "Bar Plot")'>> report.md
+        echo '![](./fruit_supply.png "Bar Plot")'>> report.md
         echo "##  Line plots">> report.md
-        echo '![](./line_plot.png "Line Plot")'>> report.md
+        echo '![](./lines.png "Line Plot")'>> report.md
 
         cml comment create report.md
