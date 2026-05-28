@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env
+.venv/
+venv/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Local environment files
+*.env
+*.local
+
+# Generated plot output
+/fruit_supply.png
+/lines.png
+
+# OS files
+.DS_Store
+Thumbs.db
