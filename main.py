@@ -15,7 +15,7 @@ ax.legend(title='Fruit Types')
 
 plt.savefig('fruit_supply.png',bbox_inches='tight')
 
-cat=['bored','happy','bored','happy','happy','bored']
+cat=['bored','happy','bored','bored','happy','happy']
 dog=['happy','happy','happy','bored','bored','bored']
 actions=['combing','drinking','feeding','napping','playing','walking']
 
