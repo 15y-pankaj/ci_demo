@@ -32,12 +32,13 @@ jobs:
     
     - name: Create CML report
       env:
+         ##                    here the the name of permission token
         REPO_TOKEN: ${{ secrets.CI_DEMO_ACCESS_TOKEN }}
       run: |
         echo "# First Line of our report">> report.md
         echo "##  Bar plots">> report.md
-        echo '![](./bar_plot.png "Bar Plot")''>> report.md
+        echo '![](./bar_plot.png "Bar Plot")'>> report.md
         echo "##  Line plots">> report.md
-        echo '![](./line_plot.png "Line Plot")''>> report.md
+        echo '![](./line_plot.png "Line Plot")'>> report.md
 
         cml comment create report.md
